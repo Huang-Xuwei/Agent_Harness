@@ -64,8 +64,8 @@ copy .env.example .env
 
 ```env
 OPENAI_API_KEY=sk-xxx
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
-MODEL=anthropic/claude-sonnet-4
+OPENAI_BASE_URL=https://openrouter.fans/v1
+MODEL=deepseek-chat
 ```
 
 启动 CLI：

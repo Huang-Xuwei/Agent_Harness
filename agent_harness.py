@@ -49,8 +49,8 @@ from openai import OpenAI
 # 启动时流程：load_env() → load_config() deep_merge → _expand_env_vars()
 
 DEFAULT_CONFIG = {
-    "model": "anthropic/claude-sonnet-4",
-    "base_url": "https://openrouter.ai/api/v1",
+    "model": "deepseek-chat",
+    "base_url": "https://openrouter.fans/v1",
     "api_key": "",
     "fallback": {
         "model": "",
